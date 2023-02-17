@@ -105,7 +105,7 @@ describe 'Searchable' do
       parent_index += 1 if index.even?
     end
   end
-
+  
   shared_examples_for 'search method' do
     it "should return itself if it contains the value" do
       expect(nodes.first.send(search_method, 'a')).to equal(nodes.first)
