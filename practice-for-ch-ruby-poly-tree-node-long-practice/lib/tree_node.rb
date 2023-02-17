@@ -1,3 +1,3 @@
 class PolyTreeNode
-  Hello
+  test
 end
